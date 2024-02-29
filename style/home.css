@@ -1,0 +1,48 @@
+.nav {
+  position: relative;
+}
+.con {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+h1 {
+  text-align: center;
+}
+.val {
+  width: 400;
+  border: 2px solid red;
+  padding: 20px;
+}
+.csstype {
+  width: 70%;
+}
+.main {
+  background-color: aqua;
+  padding: 4px;
+  position: absolute;
+  top: 10%;
+  display: none;
+  right: 5%;
+  width: 500px;
+  height: fit-content;
+  border: 2px solid black;
+}
+#ccc {
+  border: none;
+  background-color: transparent;
+  color: rgb(155, 154, 154);
+  font-size: large;
+  margin-top: 10px;
+}
+.container {
+  background-color: aqua;
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+}
+.left {
+  width: 20%;
+  background-color: red;
+}
